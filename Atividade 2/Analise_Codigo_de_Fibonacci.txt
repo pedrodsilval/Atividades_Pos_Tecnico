@@ -1,0 +1,32 @@
+4. Análise do Código de Fibonacci   
+
+a, b = 0, 1
+print("Sequência de Fibonacci:")
+# A função range gera uma sequência de números inteiros.
+for _ in range(10):
+ print(a, end=" ")
+ a, b = b, a + b
+
+
+a) O que o código acima faz? 
+Ele gera e imprime os primeiros 10 números da sequência de Fibonacci na mesma linha, separados por um espaço em branco.  
+
+
+
+b) O que significam as variáveis a e b no início do código? 
+Elas representam os dois valores iniciais da sequência. A variável a inicia com o valor 0 e a variável b inicia com o valor 1.  
+
+
+
+c) Como você modificaria o código para gerar os primeiros 20 números da sequência de Fibonacci? 
+Basta alterar o limite dentro da função range. A linha do loop ficaria assim: for _ in range(20):  
+
+
+
+d) Como você modificaria o código para começar a sequência de Fibonacci com outros dois números, por exemplo, 2 e 3? 
+Alterando a inicialização das variáveis na primeira linha do código para: a, b = 2, 3  
+
+
+
+e) Qual é a função do loop for neste código? 
+O loop for com range(10) define a quantidade de repetições. Ele faz com que o bloco de código que imprime o número atual e calcula os próximos valores seja executado exatamente 10 vezes.  
